@@ -12,9 +12,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "22022306"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "34bcf3361227074dc4706c3bd60132df")
 
 
 ## Get it from @Botfather in Telegram.
@@ -39,7 +39,7 @@ DURATION_LIMIT_MIN = int(
 
 EXTRA_PLUGINS = getenv(
     "EXTRA_PLUGINS",
-    "TRUE",
+    "false",
 )
 
 # Fill True if you want to load extra plugins
@@ -64,12 +64,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002223516578"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001511253627"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6972508083").split())
+    map(int, getenv("OWNER_ID", "8160582005").split())
 )  # Input type must be interger
 
 
@@ -108,11 +108,11 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/NOBITA_ALL_BOT"
-)  # Example:- https://t.me/NOBITA_ALL_BOT
+    "SUPPORT_CHANNEL", "https://t.me/ABOUT_DEADLY_VENOM"
+)  # Example:- https://t.me/ABOUT_DEADLY_VENOM
 SUPPORT_GROUP = getenv(
-    "BOYS_STATUS_GROUP", "https://t.me/CN_STATUS"
-)  # Example:- https://t.me/CN_STATUS
+    "BOYS_STATUS_GROUP", "https://t.me/NOBITA_SUPPORT"
+)  # Example:- https://t.me/ABOUT_DEADLY_VENOM
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_GROUP", "https://t.me/NOBITA_SUPPORT"
@@ -211,17 +211,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/0fm2u1.jpg",
+    "https://vault.pictures/p/681d4589141c48c1b0ec70ae129cbc15",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/0fm2u1.jpg",
+    "https://vault.pictures/p/4caf57f5ad6f43be88ca1745c38cff74",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://files.catbox.moe/0fm2u1.jpg",
+    "https://vault.pictures/p/92962e6cd568480a9bd4887c4bb43ddd",
 )
 
 GLOBAL_IMG_URL = getenv(
